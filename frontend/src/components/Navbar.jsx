@@ -124,7 +124,7 @@ const Navbar = () => {
 					</li>
 					<li>
 						<Link
-							to="/queries"
+							to="/ueries"
 							className="block lg:inline hover:bg-gray-700 hover:text-blue-400 py-2 px-3 rounded-lg"
 						>
 							Queries

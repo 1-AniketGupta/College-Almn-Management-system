@@ -15,6 +15,10 @@ import AdminLogin from "./pages/AdminLogin";
 import AluminiLogin from "./pages/AluminiLogin";
 import AdminRegister from "./pages/AdminRegister";
 import AluminiRegister from "./pages/AluminiRegister";
+import HomePage from "./pages/Alumini-assist";
+import Query from "./pages/Queries";
+import RecentAchievement from "./pages/Achievements-form";
+import JobUpdate from "./pages/Job-Update";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -40,6 +44,10 @@ const App = () => {
 					<Route path="/login" element={<Login />} />
 					<Route path="/profile" element={<Profile />} />
 					<Route path="/register" element={<Register />} />
+					<Route path="/queries" element={<Query/>}/>
+					<Route path="/alumni-assist" element={<HomePage />} />
+					<Route path="/achievements-form" element={<RecentAchievement />} />
+					<Route path="/job-updates" element={<JobUpdate />} />
 				</Routes>
 				<Footer />
 				<ToastContainer
